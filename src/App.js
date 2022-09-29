@@ -1,4 +1,3 @@
-
 import Card from './components/UI/Card';
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from './components/NewExpense/NewExpense';
@@ -27,10 +26,10 @@ const App = () => {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
-  ];
+  ]; 
 
   const addExpenseHandler = expense => {
-    console.log('in App.js', expense);
+    console.log(expense);
   }
 
   return (
