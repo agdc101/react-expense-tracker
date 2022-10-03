@@ -29,6 +29,7 @@ const initial_expenses = [
 ]; 
 
 const App = () => {
+
   const [expenses, setExpenses] = useState(initial_expenses);
 
   const addExpenseHandler = expense => {
