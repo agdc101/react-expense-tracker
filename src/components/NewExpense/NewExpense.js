@@ -8,7 +8,7 @@ const NewExpense = (props) => {
             ...enteredExpenseData,
             id: Math.ceil(Math.random() * 1000).toString()
         }
-        props.onAddExpense(expenseData);
+       props.onAddExpense(expenseData);
     }
     
     return  (
